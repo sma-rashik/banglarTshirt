@@ -2,3 +2,25 @@ nav a {
   margin-right: 10px;
   font-size: x-large;
 }
+.home-container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 10px;
+  margin-top: 30px;
+}
+.tshirts-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+.t-shirt img {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+.t-shirt {
+  padding: 10px;
+  border: 1px solid lightblue;
+
+  margin: 20px;
+}
